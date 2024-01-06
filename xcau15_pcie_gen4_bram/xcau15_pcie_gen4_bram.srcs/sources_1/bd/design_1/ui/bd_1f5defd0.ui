@@ -1,0 +1,49 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.976672",
+   "Default View_TopLeft":"-51,255",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port pcie_mgt -pg 1 -lvl 7 -x 1920 -y 510 -defaultsOSRD
+preplace port pcie_ref -pg 1 -lvl 0 -x 0 -y 530 -defaultsOSRD
+preplace port C0_DDR4_0 -pg 1 -lvl 7 -x 1920 -y 220 -defaultsOSRD
+preplace port C0_SYS_CLK_0 -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_pcie_rstn -pg 1 -lvl 0 -x 0 -y 600 -defaultsOSRD
+preplace portBus led -pg 1 -lvl 7 -x 1920 -y 570 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 4 -x 1180 -y 570 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 3 -x 840 -y 690 -defaultsOSRD
+preplace inst xdma_0 -pg 1 -lvl 2 -x 500 -y 560 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 500 -y 170 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 5 -x 1490 -y 290 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 6 -x 1770 -y 290 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 1180 -y 340 -defaultsOSRD
+preplace inst c_counter_binary_0 -pg 1 -lvl 3 -x 840 -y 570 -defaultsOSRD
+preplace inst util_ds_buf -pg 1 -lvl 1 -x 170 -y 530 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 170 -y 660 -defaultsOSRD
+preplace netloc ARESETN_1 1 2 2 N 190 1030
+preplace netloc S00_ACLK_1 1 1 4 320 280 690 500 1000 210 1350
+preplace netloc c_counter_binary_0_Q 1 3 1 NJ 570
+preplace netloc pcie_rstn_1 1 0 3 NJ 600 320 690 NJ
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 2 N 210 990
+preplace netloc util_ds_buf_IBUF_DS_ODIV2 1 1 1 N 540
+preplace netloc util_ds_buf_IBUF_OUT 1 1 1 330 520n
+preplace netloc xdma_0_axi_aresetn 1 1 4 330 270 680 490 1010 220 1330
+preplace netloc xlconstant_1_dout 1 1 1 330J 600n
+preplace netloc xlslice_0_Dout 1 4 3 NJ 570 N 570 N
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 5 1 N 280
+preplace netloc axi_bram_ctrl_0_BRAM_PORTB 1 5 1 N 300
+preplace netloc axi_interconnect_0_M00_AXI 1 4 1 1340 270n
+preplace netloc diff_clock_rtl_0_1 1 0 1 NJ 530
+preplace netloc xdma_0_M_AXI 1 2 2 670J 480 1020
+preplace netloc xdma_0_pcie_mgt 1 2 5 NJ 510 NJ 510 NJ 510 N 510 N
+levelinfo -pg 1 0 170 500 840 1180 1490 1770 1920
+pagesize -pg 1 -db -bbox -sgen -160 -80 2050 750
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_board_cnt":"7",
+   "da_bram_cntlr_cnt":"2",
+   "da_xdma_cnt":"1"
+}

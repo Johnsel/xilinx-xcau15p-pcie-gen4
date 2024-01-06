@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../../pcie_test.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/sim/design_1_proc_sys_reset_0_0.vhd" \
+"../../../../pcie_test.gen/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_2/sim/design_1_axi_bram_ctrl_0_2.vhd" \
+"../../../../pcie_test.gen/sources_1/bd/design_1/ip/design_1_c_counter_binary_0_0/sim/design_1_c_counter_binary_0_0.vhd" \
+"../../../../pcie_test.gen/sources_1/bd/design_1/ip/design_1_util_ds_buf_0/util_ds_buf.vhd" \
+"../../../../pcie_test.gen/sources_1/bd/design_1/ip/design_1_util_ds_buf_0/sim/design_1_util_ds_buf_0.vhd" \
+
+# Do not sort compile order
+nosort
